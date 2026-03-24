@@ -13,8 +13,26 @@ To write a Python program to check whether the string `"google"` is a **palindro
 
 ## 🧾 Program
 
-Add code here
+# Assign the string
+string = "google"
+
+# Reverse the string using slicing
+rev = string[::-1]
+
+# Check for palindrome
+if string == rev:
+    print("The string is a palindrome")
+else:
+    print("The string is not a palindrome")
 
 ## Output
 
+<img width="470" height="171" alt="image" src="https://github.com/user-attachments/assets/cb96b69f-6aa6-4218-a7eb-fb63113ee477" />
+
+
+
+
 ## Result
+
+
+Thus, the Python program successfully checks whether the given string is a palindrome or not without using built-in palindrome checking functions.
